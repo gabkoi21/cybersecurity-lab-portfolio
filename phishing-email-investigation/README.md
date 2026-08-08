@@ -2,79 +2,42 @@
 
 **TryHackMe SOC Simulator — Introduction to Phishing**
 
-## Overview
+## Quick Overview
 
-This repository documents my hands-on learning experience from the **TryHackMe SOC Simulator — Introduction to Phishing** scenario.
+I completed this hands-on phishing investigation in the TryHackMe SOC Simulator while working in a **simulated SOC Level 1 Analyst** role. I triaged alerts, reviewed email direction and event context, investigated logs in Splunk, analyzed indicators with VirusTotal and TryDetectThis, correlated evidence, classified alerts, documented findings, and practiced escalation to SOC L2.
 
-I worked in a simulated **SOC Level 1 Analyst** role, where I reviewed incoming alerts, assessed severity, investigated phishing-related activity, analyzed indicators, reviewed relevant event data in Splunk, validated indicators using VirusTotal and TryDetectThis, classified alerts, documented findings, and practiced escalation workflows.
+> This was controlled cybersecurity training, not professional production SOC employment.
 
-> **Training Context:** This work was completed in a controlled TryHackMe SOC simulation. It is not presented as professional production SOC employment experience.
+| Project Detail | Information |
+| --- | --- |
+| Platform | TryHackMe SOC Simulator |
+| Scenario | Introduction to Phishing |
+| Status | Completed |
+| SIEM | Splunk |
+| Tools | Splunk, VirusTotal, TryDetectThis |
+| Focus | Phishing investigation and SOC alert triage |
 
-## Environment
-
-- **Platform:** TryHackMe SOC Simulator
-- **Scenario:** Introduction to Phishing
-- **Role:** Simulated SOC Level 1 Analyst
-- **SIEM:** Splunk
-- **Investigation Tools:** Splunk, VirusTotal, TryDetectThis, TryHackMe SOC Simulator
-
-## Skills Demonstrated
-
-- Alert Triage
-- Phishing Analysis
-- SIEM Investigation
-- Splunk Log Analysis
-- IOC Analysis
-- Email Security Analysis
-- Evidence Correlation
-- Alert Classification
-- Incident Documentation
-- SOC Escalation
-
-## Investigation Workflow
-
-1. Review the alert in the Alert Queue
-2. Assess alert severity
-3. Understand the event and email direction
-4. Investigate supporting event/log data in Splunk
-5. Identify relevant indicators
-6. Validate indicators with VirusTotal and TryDetectThis
-7. Correlate evidence from multiple sources
-8. Classify the alert
-9. Document investigation findings
-10. Escalate when additional response is required
-
-## Repository Structure
+## Investigation Process
 
 ```text
-phishing-email-investigation/
-├── README.md
-├── docs/
-│   ├── investigation-methodology.md
-│   ├── findings-template.md
-│   └── lessons-learned.md
-├── screenshots/
-│   └── README.md
-├── .gitignore
-└── LICENSE
+Alert Triage → Email Analysis → Splunk Investigation → IOC Validation
+→ Evidence Correlation → Classification → Documentation → Escalation
 ```
 
-## Public Write-Up Safety
+## What This Project Demonstrates
 
-This repository should not contain:
+- Alert triage and severity assessment
+- Phishing and email security analysis
+- Splunk log investigation
+- IOC identification and reputation analysis
+- Evidence correlation and alert classification
+- Clear incident documentation and escalation decisions
 
-- TryHackMe flags
-- Challenge answers
-- Credentials
-- Protected walkthrough solutions
-- Sensitive information
-- Unsanitized screenshots
-- Fabricated evidence
+## View the Project
 
-Only sanitized, appropriate investigation documentation should be published.
+- **[Read the Full Walkthrough](full-walkthrough.md)** — investigation process, tools, classification method, reporting, and lessons learned
+- **[View Screenshots](screenshots/)** — sanitized visual evidence approved for public sharing
 
 ## Portfolio
 
-This investigation is designed to support the case study on my cybersecurity portfolio:
-
-`/cybersecurity-projects/phishing-email-investigation`
+The recruiter-facing case study is available at `/cybersecurity-projects/phishing-email-investigation`. This directory is its technical documentation layer. No GitHub URL has been added because a final URL was not provided.
