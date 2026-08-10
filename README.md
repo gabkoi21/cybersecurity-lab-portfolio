@@ -13,3 +13,13 @@ Completed hands-on SOC L1 training covering alert triage, phishing analysis, SIE
 **Tools:** Splunk · VirusTotal · TryDetectThis
 
 **Status:** Completed
+
+### [Endpoint Detection and Response Investigation](endpoint-detection-response-investigation/)
+
+**TryHackMe — Introduction to EDR**
+
+Completed hands-on endpoint alert triage covering detection review, process-tree analysis, endpoint telemetry, IOC correlation, threat-intelligence context, and response visibility.
+
+**Tool:** Simulated EDR Console
+
+**Status:** Completed
