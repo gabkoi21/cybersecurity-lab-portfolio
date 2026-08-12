@@ -4,6 +4,16 @@ This repository contains technical documentation from hands-on cybersecurity lab
 
 ## SOC Investigations
 
+### [Splunk: The Basics](splunk-the-basics/)
+
+**TryHackMe — Splunk: The Basics**
+
+Completed hands-on SIEM training covering Splunk architecture, JSON log ingestion, index creation, field extraction, and VPN log analysis with Search Processing Language (SPL).
+
+**Tool:** Splunk Enterprise
+
+**Status:** Completed
+
 ### [Phishing Email Investigation](phishing-email-investigation/)
 
 **TryHackMe SOC Simulator — Introduction to Phishing**
