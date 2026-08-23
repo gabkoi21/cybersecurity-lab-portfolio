@@ -24,6 +24,16 @@ Completed hands-on SOC L1 training covering alert triage, phishing analysis, SIE
 
 **Status:** Completed
 
+### [Phishing Analysis Tools](phishing-analysis-tools/)
+
+**TryHackMe — Phishing Analysis**
+
+Completed email-investigation training covering artifact collection, email header and body analysis, URL and IP reputation checks, attachment hashing, and safe sandbox investigation.
+
+**Tools:** Messageheader · URLScan.io · Talos · VirusTotal · ANY.RUN
+
+**Status:** Completed
+
 ### [Endpoint Detection and Response Investigation](endpoint-detection-response-investigation/)
 
 **TryHackMe — Introduction to EDR**
