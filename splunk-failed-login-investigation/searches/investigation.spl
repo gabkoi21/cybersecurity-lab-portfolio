@@ -1,0 +1,46 @@
+# SPL queries extracted from the supplied investigation write-up.
+# Dataset source: splunk_failed_login_lab.csv; original CSV not included.
+# host=socagent is Splunk metadata; extracted_host is the CSV endpoint.
+
+# Investigation query 1
+index="main" source="splunk_failed_login_lab.csv"
+| stats count
+
+# Investigation query 2
+index="main" source="splunk_failed_login_lab.csv"
+| stats count by action
+
+# Investigation query 3
+index="main" source="splunk_failed_login_lab.csv" action="failed"
+| stats count by user
+
+# Investigation query 4
+index="main" source="splunk_failed_login_lab.csv" action="failed"
+| stats count by src_ip
+| sort - count
+
+# Investigation query 5
+index="main" host="socagent" action="failed"
+| stats count by extracted_host
+| sort - count
+
+# Investigation query 6
+index="main" host="socagent" action="failed"
+| table timestamp user src_ip
+
+# Investigation query 7
+index="main" sourcetype="csv" action="failed" (user="admin" OR user="administrator")
+| stats count by user
+
+# Investigation query 8
+index="main" source="splunk_failed_login_lab.csv" event_id=4625
+| stats count by user status
+
+# Investigation query 9
+index="main" source="splunk_failed_login_lab.csv" (event_id="4624" OR event_id="4625")
+| table user timestamp status
+
+# Investigation query 10
+index="main" source="splunk_failed_login_lab.csv" user="john" (event_id="4624" OR event_id="4625")
+| table user timestamp status src_ip
+
