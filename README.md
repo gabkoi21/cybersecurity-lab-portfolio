@@ -43,3 +43,13 @@ Completed hands-on analysis of 15 simulated authentication events, covering fail
 **Tool:** Splunk Enterprise
 
 **Status:** Completed
+
+### [SSH Log Analysis using Splunk](ssh-log-analysis-using-splunk/)
+
+**Local SOC Lab — SSH Authentication Analysis**
+
+Completed hands-on SSH log analysis covering JSON log ingestion, field validation, failed login detection, brute-force indicators, successful login tracking, unauthenticated connections, visualizations, and alert logic.
+
+**Tool:** Splunk Enterprise
+
+**Status:** Completed
